@@ -3,44 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bouncing Ball</title>
+  <title>Simple HTML Website</title>
   <style>
-    .ball {
-      position: relative;
-      width: 200px;
-      height: 200px;
-      background-color: pink;
-      border: 2px solid #fff;
-      animation: bounce 2s infinite alternate;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      color: white;
-    }
-    
-    @keyframes bounce {
-      from {
-        margin-top: 0;
-        margin-left: 0;
-      }
-      to {
-        margin-top: -250px;
-        margin-left: 200px;
-      }
-    }
-    
     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      background-color: #000;
+      height: 100vh;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <div class="ball">Not done</div>
+  <img src="path/to/your/image.jpg" alt="Image">
 </body>
 </html>
